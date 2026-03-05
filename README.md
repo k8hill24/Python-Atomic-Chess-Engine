@@ -35,3 +35,14 @@ Whenever a capture occurs:
 - The **capturing piece is also destroyed**
 - All **non-pawn pieces in the surrounding 3×3 area explode**
 - **Pawns adjacent to the capture survive**
+
+### Additional Rules
+
+- The game starts in the **standard chess starting position**
+- **White moves first**
+- There is **no check or checkmate**
+- The following mechanics are **not implemented**:
+  - Castling
+  - En passant
+  - Pawn promotion
+- If a **king is destroyed in an explosion**, the opposing player wins
